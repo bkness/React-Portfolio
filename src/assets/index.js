@@ -1,0 +1,1 @@
+export {default as pic} from "./projects/bottom_logo.avif"
