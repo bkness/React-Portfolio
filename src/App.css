@@ -1,13 +1,29 @@
-html, body, #root{ margin: 0; padding: 0; box-sizing: border-box; height: 100% }
+/* Global styles */
+:root {
+  /* CSS HEX */
+  --prussian-blue: #1c3144ff;
+  --raspberry-rose: #b5446eff;
+  --air-superiority-blue: #6d98baff;
+  --sage: #c9c19fff;
+  --emerald: #2dd881ff;
+
+  /* CSS HSL */
+  --prussian-blue-hsl: hsla(208, 42%, 19%, 1);
+  --raspberry-rose-hsl: hsla(338, 45%, 49%, 1);
+  --air-superiority-blue-hsl: hsla(206, 36%, 58%, 1);
+  --sage-hsl: hsla(49, 28%, 71%, 1);
+  --emerald-hsl: hsla(149, 69%, 51%, 1);
+}
+ html, body, #root{ margin: 0; padding: 0; box-sizing: border-box; height: 100% }
 
 body {
-    background-color: #333333; 
+    background-color: hsla(208, 42%, 19%, 1); 
     margin: 0; 
     padding: 0; 
   }
 
    .nav.nav-tabs {
-    background-color: #333;
+    background-color: #6d98baff;
   }
   
   .nav-item {
@@ -15,14 +31,16 @@ body {
   }
   
   .nav-link {
-    color: #ffffff;
+    color: #1c3144ff;
     padding: 10px;
   }
   
   .nav-link {
-    transition: color 0.2s ease;
+    transition: color 0.04s ease;
   }
   
   .nav-link:hover {
-    color: rgb(165, 158, 158);
-  }
+    color:  #c9c19fff;
+  } 
+
+    
