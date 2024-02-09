@@ -1,0 +1,36 @@
+h1, p {
+    color: #ffffff;
+}
+
+.about-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    animation: slideUpFadeIn 3s ease-in-out forwards; 
+  }
+  
+  .text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    opacity: 0; 
+    animation: slideUpFadeIn 5s ease-in-out 0.8s forwards; 
+  }
+  
+  @keyframes slideUpFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px); 
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }
+  

@@ -1,1 +1,28 @@
 html, body, #root{ margin: 0; padding: 0; box-sizing: border-box; height: 100% }
+
+body {
+    background-color: #333333; 
+    margin: 0; 
+    padding: 0; 
+  }
+
+   .nav.nav-tabs {
+    background-color: #333;
+  }
+  
+  .nav-item {
+    margin-right: 30px;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  .nav-link {
+    transition: color 0.2s ease;
+  }
+  
+  .nav-link:hover {
+    color: rgb(165, 158, 158);
+  }
