@@ -28,6 +28,7 @@ Fork the project and open a pull request with your new code
 ## Deployed 
 The github repo can be viewed [here](https://github.com/bkness/React-Portfolio)
 
+The deployed profile can be viewed [here](https://main--jazzy-scone-ff682e.netlify.app/)
 
 ## Questions
 If you have any questions you can email me at kbrandon863@gmail.com if you want to see more of my work, visit my GitHub at [bkness](https://github.com/bkness)
