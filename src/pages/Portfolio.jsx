@@ -21,8 +21,8 @@ function Portfolio() {
     {
       name: "Open Weather Database",
       description: "HTML/CSS/JS/OpenWeatherAPI",
-      link: "https://github.com/bkness/open-weather-api",
-      repo: "https://bkness.github.io/open-weather-api",
+      link: "https://bkness.github.io/open-weather-api",
+      repo: "https://github.com/bkness/open-weather-api",
       image: "weather",
     },
     {
@@ -35,8 +35,8 @@ function Portfolio() {
     {
       name: "Key Generator",
       description: "HTML/CSS/JS",
-      link: "https://github.com/bkness/javascript-key-generator",
-      repo: "https://github.com/bkness/keygen-css",
+      link: "https://bkness.github.io/javascript-key-generator",
+      repo: "https://github.com/bkness/javascript-key-generator",
       image: "keygen",
     }
   ]
