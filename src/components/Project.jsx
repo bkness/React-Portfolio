@@ -12,8 +12,8 @@ function Project({ project }) {
         />
         <div className="">
           <h1>
-            <a href={link}>{name}</a>{' '}
-            <a href={repo}>
+            <a href={link} target='_blank'>{name}</a>{' '}
+            <a href={repo} target='_blank'>
               <i className="fab fa-github"></i>
             </a>
           </h1>
