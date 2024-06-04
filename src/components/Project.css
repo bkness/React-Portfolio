@@ -1,0 +1,16 @@
+.project-item {
+    margin-bottom: 20px;
+  }
+  
+  .project-image {
+     width: 100%;
+    height: auto;
+  }
+  
+  .project-details {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  
+
