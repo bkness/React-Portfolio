@@ -1,5 +1,5 @@
-
 import Project from "../components/Project";
+
 
 function Portfolio() {
   // fill in the required data, image file should be in the assets/projects folder and name should match the "default as " statment in index.js

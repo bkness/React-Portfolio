@@ -1,16 +1,18 @@
 .project-item {
-    margin-bottom: 20px;
-  }
-  
-  .project-image {
-     width: 100%;
-    height: auto;
-  }
-  
-  .project-details {
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-  }
-  
+  margin-bottom: 20px;
+}
 
+.project-image {
+  width: 100%;
+  height: auto;
+}
+
+.project-title h1 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.project-title p {
+  font-size: 1rem;
+  margin-top: 5px;
+}
