@@ -1,10 +1,11 @@
-.project-item {
+/* .project-item {
+  padding: 20px;
   margin-bottom: 20px;
 }
 
 .project-image {
   width: 100%;
-  height: auto;
+  height:650px;
 }
 
 .project-title h1 {
@@ -15,4 +16,41 @@
 .project-title p {
   font-size: 1rem;
   margin-top: 5px;
+} */
+
+.project-item {
+  background-color: #f9f8f8;
+  border-radius: 5px;
+  padding: 15px;
+  transition: transform 0.2s;
+}
+
+.project-item:hover {
+  transform: scale(1.02);
+}
+
+.project-image {
+  width: 100%;
+  height: 600px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.project-title h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.project-title a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.project-title a:hover {
+  text-decoration: underline;
+}
+
+.project-title p {
+  font-size: 1.2em;
+  color: #6c757d;
 }
