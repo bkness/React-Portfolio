@@ -1,17 +1,10 @@
+/* Global styles */
 :root {
-  /* CSS HEX */
   --prussian-blue: #1c3144ff;
   --raspberry-rose: #b5446eff;
   --air-superiority-blue: #6d98baff;
   --sage: #c9c19fff;
-  --emerald: #2dd881ff;
-
-  /* CSS HSL */
-  --prussian-blue-hsl: hsla(208, 42%, 19%, 1);
-  --raspberry-rose-hsl: hsla(338, 45%, 49%, 1);
-  --air-superiority-blue-hsl: hsla(206, 36%, 58%, 1);
-  --sage-hsl: hsla(49, 28%, 71%, 1);
-  --emerald-hsl: hsla(149, 69%, 51%, 1);
+  --royal-blue: #4169e1;
 }
 
 html, body, #root {
@@ -22,18 +15,42 @@ html, body, #root {
 }
 
 body {
-  background-color: var(--prussian-blue);
-  color: var(--sage);
-  font-family: Arial, sans-serif;
+  background-color: hsla(208, 42%, 19%, 1);
+  margin: 0;
+  padding: 0;
 }
 
-.main {
-  padding: 20px;
-}
-
-footer {
+.nav.nav-tabs {
   background-color: var(--air-superiority-blue);
-  padding: 10px;
-  text-align: center;
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+.nav-link {
   color: var(--prussian-blue);
+  padding: 10px;
+}
+
+.nav-link {
+  transition: color 0.04s ease;
+}
+
+.nav-link:hover {
+  color: var(--sage);
+}
+
+.p-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.p-img {
+  max-width: 100%;
+  height: auto;
 }

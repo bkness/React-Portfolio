@@ -5,20 +5,16 @@ export default function Resume() {
   return (
     <div className="resume-container">
       <h1 className="title">Brandon Michael Kelly</h1>
-      <p className="contact-info">
-        950 E. Mingus Ave.<br />
-        Cottonwood, AZ 86326<br />
-        Phone: 928-442-6513<br />
-        Email: <a href="mailto:kbrandon863@gmail.com">kbrandon863@gmail.com</a><br />
-        LinkedIn: <a href="https://linkedin.com/in/brandonmichaelkelly" target="_blank" rel="noopener noreferrer">linkedin.com/in/brandonmichaelkelly</a><br />
-        GitHub: <a href="https://github.com/username" target="_blank" rel="noopener noreferrer">github.com/username</a><br />
-        Portfolio: <a href="https://your-portfolio-link.com" target="_blank" rel="noopener noreferrer">your-portfolio-link.com</a>
-      </p>
+      <div class="contact-info">
+   <div className="">
+   Cottonwood, AZ 86326 | Phone: 928-274-6725<br /></div>
+    <a href="mailto:kbrandon863@gmail.com">Email</a> | <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> | <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+</div>
+
 
       <h2 className="section-title">Summary</h2>
       <p className="summary">
-        Dedicated and detail-oriented Front-End Web Developer with a background in psychology and a passion for creating user-friendly and visually appealing web applications. Skilled in HTML, CSS, JavaScript, and React, with a strong understanding of responsive design and agile development methodologies. Known for a keen eye for detail and an ability to solve complex problems efficiently. Eager to leverage skills and experience in a dynamic tech environment.
-      </p>
+      Dedicated and detail orientated Web Developer with a diverse background in bartending, and botany. Skilled in HTML, CSS, JavaScript, and React, with a focus on creating user-friendly and visually appealing web applications. Experienced in multitasking, high-volume environments, inventory management, and customer service from bartending. Proficient in sustainable agricultural practices, composting, and maximizing yield from botany studies. Passionate about leveraging technology to improve lives and seeking a fulfilling career in the dynamic field of web development.      </p>
 
       <h2 className="section-title">Technical Skills</h2>
       <p className="skills">
@@ -28,7 +24,7 @@ export default function Resume() {
         <strong>Other:</strong> Responsive Design, RESTful APIs, Agile Methodologies
       </p>
 
-      <h2 className="section-title">Projects</h2>
+      <h2 className="section-title">Related Experiences</h2>
 
       <div className="project">
         <strong>Tech Blog</strong> | <a href="https://github.com/bkness/MVC-Tech-Blog" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://mvc--tech-blog-715ec89956fb.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live</a><br />
@@ -56,11 +52,12 @@ export default function Resume() {
       <div className="experience">
         <strong>Creekside American Bistro, Bartender</strong> | March 2019 – Current<br />
         Cottonwood, AZ<br />
-        Creating and serving signature craft cocktails, making and using various syrups and ingredients for unique, great-tasting cocktails. Assuring customer satisfaction while upselling food and drinks to increase ticket sales. Working diligently and efficiently with coworkers to maintain a positive, smooth-running work environment. Balancing cash drawer.
+        Crafted and served signature cocktails, maintained bar inventory, and ensured exceptional customer service.<br />
+        <strong>Key Accomplishments:</strong> Recognized for exceptional customer service, led a team during high-volume events.
       </div>
 
       <div className="experience">
-        <strong>Main Stage, Bartender</strong> | June 2015 – Current<br />
+        <strong>Main Stage, Bartender</strong> | June 2015 – June 2023<br />
         Cottonwood, AZ<br />
         On call bartender when they are short staffed. Swiftly making and serving cocktails to patrons on busy nights. Keeping awareness of intoxicated customers to ensure a safe environment for staff and customers.
       </div>
@@ -92,7 +89,7 @@ export default function Resume() {
       </div>
 
       <div className="education">
-        April 2009<br />
+        <strong>GED</strong> | April 2009<br />
         Yavapai College, Cottonwood, AZ
       </div>
 
@@ -116,5 +113,5 @@ export default function Resume() {
         </p>
       </div>
     </div>
-  );
+  ); 
 }
