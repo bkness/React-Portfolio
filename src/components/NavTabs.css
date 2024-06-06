@@ -1,0 +1,27 @@
+.navbar {
+  background-color: var(--air-superiority-blue);
+  margin-bottom: 1rem;
+}
+
+.navbar-brand {
+  color: var(--sage);
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: var(--prussian-blue);
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--emerald);
+  font-weight: bold;
+}
+
+a {
+  color: var(--emerald);
+}
+
+a:hover {
+  color: var(--raspberry-rose);
+  text-decoration: none;
+}

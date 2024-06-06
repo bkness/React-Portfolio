@@ -1,37 +1,49 @@
+:root {
+  /* CSS HEX */
+  --prussian-blue: #1c3144ff;
+  --raspberry-rose: #b5446eff;
+  --air-superiority-blue: #6d98baff;
+  --sage: #c9c19fff;
+  --emerald: #2dd881ff;
+}
+
 h1, p {
-    color: #ffffff;
+  color: var(--sage);
 }
 
 .about-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: var(--prussian-blue);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  color: var(--emerald);
+  animation: slideUpFadeIn 3s ease-in-out forwards; 
+}
+
+.text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  opacity: 0; 
+  animation: slideUpFadeIn 5s ease-in-out 0.8s forwards; 
+  color: var(--sage);
+}
+
+@keyframes slideUpFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px); 
   }
-  
-  .title {
-    font-size: 3rem;
-    margin-bottom: 50px;
-    margin-top: 25px;
-    animation: slideUpFadeIn 3s ease-in-out forwards; 
+  to {
+    opacity: 1;
+    transform: translateY(0); 
   }
-  
-  .text {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    opacity: 0; 
-    animation: slideUpFadeIn 5s ease-in-out 0.8s forwards; 
-  }
-  
-  @keyframes slideUpFadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(50px); 
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0); 
-    }
-  }
-  
-  
+}

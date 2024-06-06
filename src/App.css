@@ -1,4 +1,3 @@
-/* Global styles */
 :root {
   /* CSS HEX */
   --prussian-blue: #1c3144ff;
@@ -14,46 +13,27 @@
   --sage-hsl: hsla(49, 28%, 71%, 1);
   --emerald-hsl: hsla(149, 69%, 51%, 1);
 }
- html, body, #root{ margin: 0; padding: 0; box-sizing: border-box; height: 100% }
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
 
 body {
-    background-color: hsla(208, 42%, 19%, 1); 
-    margin: 0; 
-    padding: 0; 
-  }
+  background-color: var(--prussian-blue);
+  color: var(--sage);
+  font-family: Arial, sans-serif;
+}
 
-   .nav.nav-tabs {
-    background-color: #6d98baff;
-  }
-  
-  .nav-item {
-    margin-right: 30px;
-  }
-  
-  .nav-link {
-    color: #1c3144ff;
-    padding: 10px;
-  }
-  
-  .nav-link {
-    transition: color 0.04s ease;
-  }
-  
-  .nav-link:hover {
-    color:  #c9c19fff;
-  } 
-    
-  .p-3 {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    max-width: 100%;
-    margin: 0 auto;
-    flex-wrap: wrap; 
-  }
-  
-  .p-img {
-    max-width: 100%;
-    height: auto;
-  }
+.main {
+  padding: 20px;
+}
 
+footer {
+  background-color: var(--air-superiority-blue);
+  padding: 10px;
+  text-align: center;
+  color: var(--prussian-blue);
+}
