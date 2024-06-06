@@ -1,0 +1,66 @@
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--sage);
+    color: var(--prussian-blue);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--raspberry-rose);
+  }
+  
+  .contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info a {
+    color: var(--emerald);
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    color: var(--raspberry-rose);
+  }
+  
+  .summary,
+  .skills,
+  .project,
+  .experience,
+  .education,
+  .references {
+    margin-bottom: 20px;
+  }
+  
+  .project a,
+  .experience a,
+  .education a {
+    color: var(--emerald);
+  }
+  
+  .project a:hover,
+  .experience a:hover,
+  .education a:hover {
+    text-decoration: underline;
+  }
+  
+  .references p {
+    margin-bottom: 10px;
+  }
+  
+  .references strong {
+    display: block;
+  }
+  
