@@ -6,15 +6,15 @@ export default function Resume() {
     <div className="resume-container">
       <h1 className="title">Brandon Michael Kelly</h1>
       <div class="contact-info">
-   <div className="">
-   Cottonwood, AZ 86326 | Phone: 928-274-6725<br /></div>
-    <a href="mailto:kbrandon863@gmail.com">Email</a> | <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> | <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
-</div>
+        <div className="">
+          Cottonwood, AZ 86326 | Phone: 928-274-6725<br /></div>
+        <a href="mailto:kbrandon863@gmail.com">Email</a> | <a href="https://www.linkedin.com/in/brandon-kelly-367b3730b/" target="_blank">LinkedIn</a> | <a href="https://github.com/bkness" target="_blank">GitHub</a>
+      </div>
 
 
       <h2 className="section-title">Summary</h2>
       <p className="summary">
-      Dedicated and detail orientated Web Developer with a diverse background in bartending, and botany. Skilled in HTML, CSS, JavaScript, and React, with a focus on creating user-friendly and visually appealing web applications. Experienced in multitasking, high-volume environments, inventory management, and customer service from bartending. Proficient in sustainable agricultural practices, composting, and maximizing yield from botany studies. Passionate about leveraging technology to improve lives and seeking a fulfilling career in the dynamic field of web development.      </p>
+        Dedicated and detail orientated Web Developer with a diverse background in bartending, and botany. Skilled in HTML, CSS, JavaScript, and React, with a focus on creating user-friendly and visually appealing web applications. Experienced in multitasking, high-volume environments, inventory management, and customer service from bartending. Proficient in sustainable agricultural practices, composting, and maximizing yield from botany studies. Passionate about leveraging technology to improve lives and seeking a fulfilling career in the dynamic field of web development.      </p>
 
       <h2 className="section-title">Technical Skills</h2>
       <p className="skills">
@@ -50,14 +50,14 @@ export default function Resume() {
       <h2 className="section-title">Experience</h2>
 
       <div className="experience">
-        <strong>Creekside American Bistro, Bartender</strong> | March 2019 – Current<br />
+        <strong>Creekside American Bistro, Bartender</strong> | March 2019 – January 2021<br />
         Cottonwood, AZ<br />
         Crafted and served signature cocktails, maintained bar inventory, and ensured exceptional customer service.<br />
         <strong>Key Accomplishments:</strong> Recognized for exceptional customer service, led a team during high-volume events.
       </div>
 
       <div className="experience">
-        <strong>Main Stage, Bartender</strong> | June 2015 – June 2023<br />
+        <strong>Main Stage, Bartender</strong> | June 2015 – November 2023<br />
         Cottonwood, AZ<br />
         On call bartender when they are short staffed. Swiftly making and serving cocktails to patrons on busy nights. Keeping awareness of intoxicated customers to ensure a safe environment for staff and customers.
       </div>
@@ -66,12 +66,6 @@ export default function Resume() {
         <strong>Enchantment Resort, Bartender</strong> | March 2018 – March 2019<br />
         Sedona, AZ<br />
         Responsible for serving drinks to the restaurant, Tii Gavo and the entire wine bar. Other responsibilities include stocking, balancing cash drawers, upselling tickets, keeping a clean bar, preparing juices and ingredients for seasonal drinks.
-      </div>
-
-      <div className="experience">
-        <strong>Kactus Kates, Bartender</strong> | December 2016 – February 2018<br />
-        Cottonwood, AZ<br />
-        Successfully handling busy night shifts alone, comfortable with doing two-three thousand in sales during a shift by myself. Keeping a positive attitude and keeping customers satisfied.
       </div>
 
       <div className="experience">
@@ -89,7 +83,7 @@ export default function Resume() {
       </div>
 
       <div className="education">
-        <strong>GED</strong> | April 2009<br />
+        April 2009<br />
         Yavapai College, Cottonwood, AZ
       </div>
 
@@ -113,5 +107,5 @@ export default function Resume() {
         </p>
       </div>
     </div>
-  ); 
+  );
 }

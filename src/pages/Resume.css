@@ -64,10 +64,13 @@
     text-decoration: underline;
 }
 
-.references p {
-    margin-bottom: 10px;
+.references {
+    margin-bottom: 10px; 
+    
 }
 
-.references strong {
-    display: block;
+.references p {
+    margin: 5px 0; 
+    color: var(--prussian-blue);
 }
+
