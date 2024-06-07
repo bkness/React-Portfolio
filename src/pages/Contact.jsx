@@ -18,33 +18,11 @@ export default function Contact() {
     }));
   };
 
-  
-  const handleSubmit = async (e) => {
-    console.log('Submitting Form')
-    e.preventDefault();
-    const errors = {};
-    if (!formData.name) {
-      errors.name = 'Name is required';
-    }
-    if (!formData.email) {
-      errors.email = 'Email is required';
-    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      errors.email = 'Invalid email address';
-    }
-    if (!formData.message) {
-      errors.message = 'Message is required';
-    }
-    setFormErrors(errors);
-
-    if (Object.keys(errors).length === 0) {
-
-    }
-  };
-
   return (
     <div className="contact-container">
       <h1>Contact Me</h1>
-      <form onSubmit={handleSubmit} netlify="true">
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
         <div>
           <label htmlFor="name">Name:</label>
           <input
