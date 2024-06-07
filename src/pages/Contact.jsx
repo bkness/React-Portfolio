@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import './Contact.css';
 
 export default function Contact() {
@@ -18,7 +18,9 @@ export default function Contact() {
     }));
   };
 
-  const handleSubmit = (e) => {
+  
+  const handleSubmit = async (e) => {
+    console.log('Submitting Form')
     e.preventDefault();
     const errors = {};
     if (!formData.name) {
@@ -35,14 +37,15 @@ export default function Contact() {
     setFormErrors(errors);
 
     if (Object.keys(errors).length === 0) {
-      console.log('Form submitted:', formData);
+      // Since we're using Netlify Forms, we don't need to handle form submission here.
+      // Netlify will handle it for us.
     }
   };
 
   return (
     <div className="contact-container">
       <h1>Contact Me</h1>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} netlify="true">
         <div>
           <label htmlFor="name">Name:</label>
           <input

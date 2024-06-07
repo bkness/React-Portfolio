@@ -6,7 +6,7 @@ export default function Resume() {
     <div className="resume-container">
       <h1 className="title">Brandon Michael Kelly</h1>
       <div class="contact-info">
-        <div className="">
+        <div>
           Cottonwood, AZ 86326 | Phone: 928-274-6725<br /></div>
         <a href="mailto:kbrandon863@gmail.com">Email</a> | <a href="https://www.linkedin.com/in/brandon-kelly-367b3730b/" target="_blank">LinkedIn</a> | <a href="https://github.com/bkness" target="_blank">GitHub</a>
       </div>
