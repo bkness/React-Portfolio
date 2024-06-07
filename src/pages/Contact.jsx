@@ -1,4 +1,5 @@
 import React from 'react';
+import './Contact.css';
 
 export default function Contact() {
   const handleSubmit = (event) => {
@@ -32,9 +33,6 @@ export default function Contact() {
         </div>
         <div className="field">
           <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
-        </div>
-        <div className="field">
-          <input type='file' name='myfile' id='myfile' placeholder='Upload File' rows='7' />
         </div>
         <div className="field">
           <div data-netlify-recaptcha='true'></div>
