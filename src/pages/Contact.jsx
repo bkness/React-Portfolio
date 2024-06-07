@@ -37,8 +37,7 @@ export default function Contact() {
     setFormErrors(errors);
 
     if (Object.keys(errors).length === 0) {
-      // Since we're using Netlify Forms, we don't need to handle form submission here.
-      // Netlify will handle it for us.
+
     }
   };
 
