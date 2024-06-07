@@ -1,11 +1,10 @@
 import React from 'react';
-import './Contact.css';
 
 export default function Contact() {
   return (
     <div className="contact-container">
       <h1>Contact Me</h1>
-      <form action="POST" data-netlify="true" >
+      <form name="contact" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
         <div className="contact-input">
           <input type="text" name="name" id="name" placeholder="Name" />
@@ -23,7 +22,7 @@ export default function Contact() {
           <div data-netlify-recaptcha='true'></div>
         </div>
         <ul className="actions">
-          <li><input type="submit" value="Send Message"  /></li>
+          <li><input type="submit" value="Send Message" /></li>
         </ul>
       </form>
     </div>
