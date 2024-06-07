@@ -25,21 +25,20 @@ h1, p {
   margin-bottom: 20px;
   margin-top: 25px;
   color: var(--royal-blue); 
-  animation: slideUpFadeIn 3s ease-in-out forwards;
 }
 
 .text {
   font-size: 1.2rem;
   line-height: 1.6;
   opacity: 0;
-  animation: slideUpFadeIn 5s ease-in-out 0.8s forwards;
+  animation: slideUpFadeIn 1s ease-in-out 0.9s forwards;
   color: var(--sage);
 }
 
 @keyframes slideUpFadeIn {
   from {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(15px);
   }
   to {
     opacity: 1;

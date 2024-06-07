@@ -19,8 +19,8 @@ export default function Resume() {
       <h2 className="section-title">Technical Skills</h2>
       <p className="skills">
         <strong>Languages:</strong> HTML, CSS, JavaScript, React<br />
-        <strong>Frameworks & Libraries:</strong> Bootstrap, jQuery, Redux<br />
-        <strong>Tools & Platforms:</strong> Git, GitHub, VS Code, Heroku<br />
+        <strong>Frameworks & Libraries:</strong> Bootstrap, jQuery, Redux, Handlebars.js, Node.js<br />
+        <strong>Tools & Platforms:</strong> Git, GitHub, VS Code, Heroku, MongoDB, Netlify, Render<br />
         <strong>Other:</strong> Responsive Design, RESTful APIs, Agile Methodologies
       </p>
 
@@ -83,8 +83,8 @@ export default function Resume() {
       </div>
 
       <div className="education">
-        April 2009<br />
-        Yavapai College, Cottonwood, AZ
+        <strong>Yavapai Community College</strong> | April 2009<br />
+        Cottonwood, AZ
       </div>
 
       <h2 className="section-title">References</h2>
