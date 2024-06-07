@@ -2,34 +2,22 @@ import React from 'react';
 import './Contact.css';
 
 export default function Contact() {
-  const handleSubmit = (event) => {
-    event.preventDefault(); // Prevent the default form submission behavior
-  };
-
   return (
     <div className="contact-container">
       <h1>Contact Me</h1>
-      <form name='contact v1' method='POST' data-netlify='true' onSubmit={handleSubmit}>
-        <input type="hidden" name='form-name' value='contact v1' />
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="subject" value="New lead from %{formName} (%{submissionId})" />
         <div>
-          <label>First Name
-            <input type="text" name="first-name" />
-          </label>
+          <label>Your Name: <input type="text" name="name" /></label>
         </div>
         <div>
-          <label htmlFor='email'>Email</label> <br />
-          <input id='email' type="email" name="email" />
+          <label>Your Email: <input type="email" name="email" /></label>
         </div>
         <div>
-          <label>Message
-            <textarea name="message" rows='7'></textarea>
-          </label>
+          <label>Message: <textarea name="message"></textarea></label>
         </div>
-        <button type='submit'>Submit The Results</button>
+        <button type='submit'>Send</button>
       </form>
     </div>
   );
 }
-
-
-
