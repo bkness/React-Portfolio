@@ -1,10 +1,28 @@
 import React from 'react';
 
 export default function Contact() {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(() => {
+        console.log('Form successfully submitted');
+        // optionally redirect user to a new page here 
+      })
+      .catch((error) => {
+        console.error('Error submitting form:', error);
+      });
+  };
+
   return (
     <div className="contact-container">
       <h1>Contact Me</h1>
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit}>
         <input type="hidden" name="form-name" value="contact" />
         <div className="contact-input">
           <input type="text" name="name" id="name" placeholder="Name" />
