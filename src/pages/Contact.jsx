@@ -1,4 +1,5 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
+import './Contact.css';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -16,7 +17,7 @@ export default function Contact() {
       [name]: value,
     }));
   };
-// handles submit and checks for  valid email entry 
+
   const handleSubmit = (e) => {
     e.preventDefault();
     const errors = {};
@@ -39,8 +40,8 @@ export default function Contact() {
   };
 
   return (
-    <div>
-      <h1>Contact Page</h1>
+    <div className="contact-container">
+      <h1>Contact Me</h1>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
